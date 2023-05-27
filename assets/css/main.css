@@ -101,6 +101,10 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	/* .serif-font {
+		font-family: 'Cormorant Garamond', serif;
+	} */
+
 	body, input, select, textarea {
 		color: #6e6e6e;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -138,7 +142,8 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #5b5b5b;
-		font-weight: 700;
+		font-family: 'Cormorant Garamond', serif;
+		font-weight: 500;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -2763,17 +2768,22 @@ input, select, textarea {
 		}
 
 		#header .logo {
+			/* background: #4eb980; */
+			height: 2.5em;
+			width: 2.5em;
 			background: #4eb980;
+			background-image: url('../../images/Logo/ThinkkBig-Black-White-Logo-Transparent.png');
+			background-size: 75%;
+			background-repeat: no-repeat;
+			background-position: 50% 40%;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
