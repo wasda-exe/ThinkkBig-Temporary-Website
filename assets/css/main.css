@@ -2214,7 +2214,12 @@ input, select, textarea {
 
 			.image.feature img {
 				display: block;
+				/* width: 100%; */
+			}
+			.feature-image {
 				width: 100%;
+				object-fit: cover;
+				/* height: 100%; */
 			}
 
 		.image.icon {
